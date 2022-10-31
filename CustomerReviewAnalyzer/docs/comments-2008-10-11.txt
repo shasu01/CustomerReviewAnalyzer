@@ -1,0 +1,5 @@
+﻿this is the first sentence containing fifteen words so that the test passes this time around when I run the application
+this file does not contain any sentence that has less than fifteen words in it
+this line has mover but it does not include the other word
+this line has shaker only
+this line has both mover and shaker in it 

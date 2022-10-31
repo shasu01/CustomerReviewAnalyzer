@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="docs\comments-2008-10-10.txt" />
+    <None Remove="docs\comments-2008-10-11.txt" />
+    <None Remove="docs\comments-2008-10-12.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="docs\comments-2008-10-10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="docs\comments-2008-10-11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="docs\comments-2008-10-12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

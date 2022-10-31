@@ -1,0 +1,5 @@
+﻿this is the first sentence containing fifteen words so that the test passes this time around when I run the application
+this sentence is less than fifteen words
+this has mover
+this has shaker
+this has mover and shaker
